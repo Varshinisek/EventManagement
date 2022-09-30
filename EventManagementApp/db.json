@@ -1,0 +1,60 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "employee_name": "Thenmozhi",
+      "employee_email": "then12@gmail.com",
+      "employee_salary": "42000",
+      "employee_age": "21"
+    },
+    {
+      "id": 4,
+      "employee_name": "Sweatha",
+      "employee_email": "swe209@gmail.com",
+      "employee_salary": "40800",
+      "employee_age": "22"
+    },
+    {
+      "id": 3,
+      "employee_name": "Suba",
+      "employee_email": "suba398@gmail.com",
+      "employee_salary": "41000",
+      "employee_age": "22"
+    },
+    {
+      "id": 5,
+      "employee_name": "Dhiviya",
+      "employee_email": "dhivii@gmail.com",
+      "employee_salary": "45000",
+      "employee_age": "21"
+    },
+    {
+      "id": 6,
+      "employee_name": "Megala",
+      "employee_email": "megs30@gmail.com",
+      "employee_salary": "41800",
+      "employee_age": "22"
+    },
+    {
+      "id": 7,
+      "employee_name": "Abirami",
+      "employee_email": "abibalu@gmail.com",
+      "employee_salary": "39000",
+      "employee_age": "20"
+    },
+    {
+      "id": 8,
+      "employee_name": "Savitha",
+      "employee_email": "svai@gmail.com",
+      "employee_salary": "39800",
+      "employee_age": "19"
+    }
+  ],
+  "admin": [
+    {
+      "email": "varsh@gmail.com",
+      "password": "varsh1",
+      "id": 1
+    }
+  ]
+}

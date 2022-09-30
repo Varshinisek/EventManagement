@@ -1,0 +1,40 @@
+<app-home></app-home>
+<br>
+<br>
+
+<div style="border: 3px solid black;background-color: rgb(131, 127, 138);width:600px; padding-top: 5px; padding-bottom: 10px; margin-left: auto;margin-right: auto;padding: 10px;">
+  <h2 style="text-align:center  ;color: white;">DETAILS OF EMPLOYEE</h2><h3 style="text-align:center;color: white;">{{employeess.employee_name}}</h3>
+</div>
+    <table class="table table-bordered " style="border: 3px solid black;width:600px; padding-top: 50px; padding-bottom: 50px; margin-left: auto;margin-right: auto;padding: 20px;" *ngIf="employeess">
+      <tbody>
+        <tr>
+          <td>Id</td>
+          <td>{{employeess.id}}</td>
+        </tr>
+        <tr>
+          <td>name</td>
+          <td>{{employeess.employee_name}}</td>
+        </tr>
+        <tr>
+          <td>Email ID</td>
+          <td>{{employeess.employee_email}}</td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td>{{employeess.employee_age}}</td>
+        </tr>
+        <tr>
+          <td>Salary</td>
+          <td>{{employeess.employee_salary}}</td>
+        </tr>
+        <tr  style=" padding: 40px;padding-top: 40px;
+        padding-bottom: 40px;">
+          <button (click)="deleteEmp(employeess)" routerLink="/list-emp" class="btn btn-danger"style="border: 3px solid black;border-spacing: 80px;background-color: rgb(93, 90, 99)"> Delete</button>  
+        <button (click)="editEmp(employeess)" style="margin-left: 20px;border: 2px solid black;background-color:rgb(93, 90, 99)" class="btn btn-secondary"> Edit</button> 
+        <button routerLink="/list-emp" style="margin-left: 20px;border: 2px solid black;background-color:rgb(93, 90, 99)" class="btn btn-primary"> Employees List</button>  
+       
+      </tr>
+      </tbody>
+       
+    </table>
+   
